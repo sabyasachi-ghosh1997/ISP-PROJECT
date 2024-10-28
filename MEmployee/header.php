@@ -1,0 +1,21 @@
+<?php
+if(!isset($_SESSION["EmpId"])){
+  header("location:Emplogin.php");
+  die();
+}
+include("../connection.php");
+include("EmpSidebar.php");
+$qry="select * from employee where EmpId='".$_SESSION["EmpId"]."'";
+    $qryresult=mysqli_query($con,$qry);
+    if($r=mysqli_fetch_array($qryresult)){
+        $_SESSION["id"]=$r["EmpId"];
+        #$_SESSION["dp"]=$r["Dp"];
+        $_SESSION["EmpName"]=$r["EmpName"];
+        $_SESSION["Gender"]=$r["Gender"];
+        $_SESSION["Address"]=$r["Address"];
+        $_SESSION["Post"]=$r["Post"];
+        $_SESSION["PhNo"]=$r["PhNo"];
+        $_SESSION["Email"]=$r["Email"];
+        $_SESSION["Status"]=$r["Status"];
+    }
+?>

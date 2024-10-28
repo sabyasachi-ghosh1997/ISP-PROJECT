@@ -1,0 +1,52 @@
+ /*header section*/
+ .hero_area {
+    height: 98vh;
+    background-image:url("../images/27.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .log-container{
+    width: 30%;
+    height: 30rem;
+    border: 10px solid transparent;
+    margin-top: 2rem;
+    border-radius: 5px;
+    text-align: left;
+    color:green;
+    background-color: white;
+  }
+  .imgcontainer {
+    width: 200px;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 20%;
+    padding:5px;
+    
+  }
+  img.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;  
+  }
+  .gradient-custom { 
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+      font-size: 1rem;
+      line-height: 2.15;
+      padding-left: .75em;
+      padding-right: .75em;
+      }
+      .card-registration .select-arrow {
+      top: 13px;
+      }
+      .image-upload>input {
+        display: none;
+      }

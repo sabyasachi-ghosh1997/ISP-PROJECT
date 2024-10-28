@@ -1,0 +1,31 @@
+Admin
+1. Login 
+2. Home
+3. Subjects (Add/ Edit/ Delete/ Active/ DeActive)
+4. Topic (Add/ Edit/ Delete/ Active/ DeActive)
+5. Notes, Video, Audio, PDF (Add/ Edit/ Delete/ Active/ DeActive)
+6. Member (View/ Active/ DeActive)
+
+
+
+Member
+View / Download Notes
+
+EditProfile
+ChangePassword
+Logout
+
+
+
+Guest
+Home
+View Notes
+
+Register
+Login
+
+
+
+
+
+Notes => Video, Audio, PDF, FREE -> Paise  
